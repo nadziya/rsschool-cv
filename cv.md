@@ -1,4 +1,4 @@
-![nadziya photo] (C:/Users/nadziya.png)
+![nadziya photo](/rsschool-cv/nadziya.png)
 
 # Nadziya Frolova
 
