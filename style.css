@@ -1,0 +1,123 @@
+body {
+  width: 50vw;
+  height: 100vh;
+  font-family: 'Crimson Text', sans-serif;
+  margin: 0 auto;
+}
+* {
+ box-sizing: border-box;
+}
+.nav-bar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: lightgrey;
+ height: 50px;
+}
+.nav-link {
+  margin: 10px;
+  font-size: 18px;
+  color: blue;
+  text-decoration: none;
+}
+.nav-bar a:hover{
+   color: magenta;
+   transition: 0.3s;
+}
+
+.header img {
+  width: 300px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.name-and-role {
+  display: flex;
+  justify-content: center;
+}
+.name-and-role p {
+  font-style: italic;
+  font-size: 28px;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.7rem;
+  letter-spacing: 1.4px;
+}
+p,
+li {
+  font-size: 1.2rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between; 
+  background-color: lightgrey;
+  align-items: center;
+}
+.foot-link1 img {
+  width: 100px;
+  height: 100px;
+}
+.foot-link2 {
+  width: 300px;
+  height: 100px;
+}
+#RS {
+  font-size: 2rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1600px) {
+.nav-link {
+  margin: 5px;
+  font-size: 16px;
+}
+}
+@media only screen and (max-width: 1300px) {
+  body {
+    width: 65vw;
+  }
+  .nav-link {
+    margin: 3px;
+    font-size: 15px;
+  }
+  }
+@media only screen and (max-width: 769px) {
+  body {
+    width: 70vw;
+  }  
+  .nav-link {
+      margin: 0 5px;
+      font-size: 14px;
+    }
+  .foot-link2 {
+    width: 200px;
+    height: 90px;
+  }
+  #RS {
+    font-size: 1rem;
+    font-weight: 300;
+  }  
+  }
+@media only screen and (max-width: 500px) {
+  body {
+    width: 90vw;
+  }
+    .nav-bar {
+      flex-direction: column;
+      height: 180px;
+    }
+    .nav-link {
+      flex-direction: column;
+      align-items: center;
+      font-size: 16px;
+    }
+    .footer {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
