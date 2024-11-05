@@ -31,7 +31,7 @@ main focus on E-commerce technology which are released with such platforms as Hy
 
 ### Code Examples
 
-```function likes(names) {
+``` function likes(names) {
 let len = names.length;
 let result = '';
 
